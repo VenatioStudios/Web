@@ -1,3 +1,7 @@
+![Logo](/logo/logo.png "Venatio Studio")
+
+---
+
 ## Research
 My research projects are all done on my own time, general with the assistance from academia and are often not more then just crazy ideas I wish to explore farther.
 
