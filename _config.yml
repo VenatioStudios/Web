@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 title: Venatio Studios
 description: All About Me, Jamie (RGBKnights) Webster, the one-man army behind Venatio Studios.
+github:
+  is_project_page: false
