@@ -167,10 +167,10 @@ Unlike chess this game has numerous win / lose conditions. You can still win the
 
 Check out the [Source Code](https://github.com/RGBKnights/Lusus)
 
-### Trafic
+### Traffic
 Traffic was created in late 2010. With the release of XNA 4 and now being able to publish a game on Windows Phone 7 as well as Xbox 360 we find ourselves building another simple game to publish on both Xbox 360 and Windows Phone 7. The game consists of a player controlling traffic lights of a pre populated city to get the average commute time below the goal. This requires using the tools of a game to figure out bottle necks, open roads, and flow patterns. The game starts off with towns and ends in a metropolis.
 
-NOTE: As there is no longer a zune store, it has since been lost to the sands of time.
+NOTE: As there is no longer a Zune store, it has since been lost to the sands of time.
 
 ### Fishbowl
 Fishbowl was created in one week over my Christmas break in 2008. With the release of XNA networking and the 360 deployment system we were very interested in getting a simpler game together to publish. Fishbowl was born! based on a Nut Harvest a very addicting XNA game that was also very simple. The goal of this project was to figure out and test XNA networking. It was very interesting to deal with network prediction to get the game to work correctly. The game consists of a player controlling a fish to eat the most shrimp before the other fish. Look out for power ups and bombs! Fishbowl has accumulated over 20,000 trail downloads since January 2009. As well as covering the cost of the original assets.
@@ -189,9 +189,23 @@ I am classically trained as electrical technologist and computer programmer. I a
 
 ### Writing
 A collection of my sci-fi short stories
+* [About Those Gods](/docs/AboutThoseGods.pdf)
+* [Pages Form the Diaries of Sarah Elizondo](/docs/PagesFormtheDiariesofSarahElizondo.pdf)
+* [The Plastic Tree of Life](/docs/ThePlasticTreeofLife.pdf)
+* [What I Can't Remember](/docs/WhatICantRemember.pdf)
 
 ### Artwork
 A small sample of choral paintings and pencil drawings
+* [Angel](/art/Angel.jpg)
+* [Boots](/art/Boots.jpg)
+* [Jenn](/art/Jenn.jpg)
+* [Jenna](/art/Jenna.jpg)
+* [Steph](/art/Steph.jpg)
+* [The Dock](/art/The_Dock.jpg)
+* [The Forest](/art/The_Forest.jpg)
+* [The Lake](/art/The_Lake.jpg)
+* [The Sun Set](/art/The_Sun_Set.jpg)
+* [Yhen](/art/Yhen.jpg)
 
 ---
 
