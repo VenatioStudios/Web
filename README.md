@@ -1,14 +1,3 @@
-## Personal
-
-### About Me
-I am classically trained as electrical technologist and computer programmer. I am an avid fan of comic books, board games and DOTA. I write fantasy and science fiction short stories when I am inspired. I also draw and create video games when I am felling creative. I often undertake research projects that start off as a crazy ideas.
-
-### Writing
-A collection of my sci-fi short stories
-
-### Artwork
-A small sample of choral paintings and pencil drawings
-
 ## Research
 My research projects are all done on my own time, general with the assistance from academia and are often not more then just crazy ideas I wish to explore farther.
 
@@ -83,8 +72,8 @@ These project where born out of a personal or professional need or the want to p
 
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `High Ground Vision`
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `Boardgame.io`
+* ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `Expeditio`
 * ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `GenerationX`
-* ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `Expeditio`
 * ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `Rail Yard`
 * ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `Bottalk`
 * ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `XSLT Templates`
@@ -110,45 +99,58 @@ While writing these games we found many bugs, some issues where submit while I f
 
 Check out the [Project](https://boardgame.io/#/) or [Source Code](https://github.com/nicolodavis/boardgame.io)
 
+### Expeditio
+
+As part of my love for DnD I am working to create a Dungeon Master’s toolkit that will contain the The Systems Reference Document (SRD) under the Open-Gaming License (OGL). It will also have an API for Genesis (world create and mutation) and an API for Hoard (items, weapons, tools, abilities, basically anything from the SRD)
+
+Check out the [Guides](https://expeditio.readme.io/docs) & the [API](https://expeditio.readme.io/reference) & the [Source Code](https://github.com/RGBKnights/expeditio)
+
 ### Generation X
 While working a lot with SharePoint (SP) I required a means to provision the same package into multiple different SP environments and sites. This is a complex as the process of adding new artifacts is completely different to updating existing artifacts.
 
 Check out the [Source Code](https://github.com/RGBKnights/GenerationX)
 
-### Expeditio
-
-(The Dungeon Master's toolkit)
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
+NOTE: This project is Archived.
 
 ### Rail Yard
+Rail yard is next generation PHP framework. It brings together common patterns like MVC and ActiveRecord. It follows conservation over configuration. It is build on PHP 5 and follows PHP best practices.
 
-(A next generation MVC framework for PHP)
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
+Why another framework? Don't we already have CakPHP, Code Igniter and Zend! All very good frameworks but having created applications in all these frameworks we believe that they are all missing a few key points. The first and most important problem is that routing in side of an application doesn't just relied on a Url. Other variables like sessions or cookies can also play a part and often Ajax and/or APIs also play some part of the process. To deal with this problem RailYard using a dispatcher class that handles routing requests. Second is lack of a descent ORM. Although most people assume that the ORM is mapping to a database it could also map to a service and RailYard flows the Rails approach to handling this problem with ActiveRecord and ActiveResource. Third is how these frameworks map actions to views. It is the nature of MVC that an action is related to a view but most frameworks call a view and auto render the results. All this makes managing the layers of the application hard. In RailYard in your actions you interact with a layout object that gets render against a layout view. The content of this layout is filled by rendering views into sections of the layout object. By taking this approach we can combine views in a Object Oriented fashion.
+
+There are more modern PHP Frameworks that handles these cases. Although it was an interesting exercise in MVC framework design.
+
+NOTE: This project is Archived but you can still find the [Source Code](https://github.com/RGBKnights/railyard).
+
+### Crypto-Cartography
+Crypto-Cartography was born out of a Hackaton that was about better passwords.
+My Submission is a service that provides authentication for web systems, like OpenID. What sets Crypto-Cartography apart from other systems is that your password is not entered as text but is entered by selected points on a map. With the longitude and latitude serving as the access code. By zooming down through the map to the high level of resolution, users can graphically produce a very large complex password that can be simple for the user to remember.
+
+NOTE: This project is Archived but you can still find the [Source Code](https://github.com/RGBKnights/crypto-cartography).
 
 ### Bottalk
+Bottalk is a service for bots, devices, services and people to communicate and connect through the exchange of frequent structured messages. Why? Because the world needs and better way for technological devices to talk to each other. With Bottalk, services can post messages to a feed which other services can follow.
 
-(Message walls for IoT before, since replaced with twitter)
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
+Bottalk was originally created before twitter but since its lunch as adapted some of its ideals. The target was home devices that could follow each other and other services for information and commands.
+
+A prototype air conditioner was created to that monitored a feed for weather updates and adjusted its temperature range a accordingly. It was also able to monitor a feed from Ontario hydro that had information of current state of the electrical grid and would power down if in a high risk area to safe power. It could also follow my cell phone's feed for commands and confirmation of commands.
+
+NOTE: This project was replaced with Twitter and is Archived.
 
 ###  XSLT Templates
+This was all years before SPA Javasript applications. XSLT seemed to the the best choice for a javascript template engine because it is standardized. As well a large collection of the internet data stores are XML, but JSON support is also needed for interaction with future applications. It also meant that the same templates that are used in the web are transferable to other environments that support xslt.
 
-(Rendering client side by combing XML data streuctures with XSLT templats client side to produce the final web page)
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
+XSLT Templates is a client side jQuery library that takes XML and/or JSON data and renders it against of XSLT template to create text, HTML, XML, or JSON. As well the library can run script(s) after the templating process to add client side logic to the processed data.
+
+NOTE: This project is Archived in favour of Modern SPA.
 
 ## Games
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
+I have been creating games for a long time. Since a young age I was creating my own board games for friends and family to play. I really started into Video Game development after getting involved in the [RMXP](http://www.rpgmakerweb.com/products/programs/rpg-maker-xp) community. I was involved in many popular scripts still used to this day and was leading the team of people creating the first version of the SDK for Script. I moved on from this basic visual editor/engine to [XNA](https://en.wikipedia.org/wiki/Microsoft_XNA) when it was release. This allowed me to create many different games and self published one on the Xbox 360 with Xbox Live networking. As Xna evolved it allow us to publish to windows phone, so I created and published windows phone game. After the death of XNA I moved into [Unity](https://unity3d.com/) development. Also, I did some board games in the browser using [Boardgame.io](https://github.com/nicolodavis/boardgame.io)
 
-* ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `Boundless`
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `Ur`
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `Lusus`
 * ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `Trafic`
 * ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `Fishbowl`
 * ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `Camthalion of Andrill`
-
-### Boundless
-(procedurally generated model of the galaxy)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
 
 ### Ur
 (based on the royal Game of UR)
@@ -163,11 +165,30 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra 
 ### Trafic
 Traffic was created in late 2010. With the release of XNA 4 and now being able to publish a game on Windows Phone 7 as well as Xbox 360 we find ourselves building another simple game to publish on both Xbox 360 and Windows Phone 7. The game consists of a player controlling traffic lights of a pre populated city to get the average commute time below the goal. This requires using the tools of a game to figure out bottle necks, open roads, and flow patterns. The game starts off with towns and ends in a metropolis.
 
+NOTE: As there is no longer a zune store, it has since been lost to the sands of time.
+
 ### Fishbowl
 Fishbowl was created in one week over my Christmas break in 2008. With the release of XNA networking and the 360 deployment system we were very interested in getting a simpler game together to publish. Fishbowl was born! based on a Nut Harvest a very addicting XNA game that was also very simple. The goal of this project was to figure out and test XNA networking. It was very interesting to deal with network prediction to get the game to work correctly. The game consists of a player controlling a fish to eat the most shrimp before the other fish. Look out for power ups and bombs! Fishbowl has accumulated over 20,000 trail downloads since January 2009. As well as covering the cost of the original assets.
 
+NOTE: As there is no 360 indy arcade anymore, it has since been lost to the sands of time.
+
 ### Camthalion of Andrill
 Camthalion of Andrill was created in early 2005. It was created with RMXP an engine used by hobbits developers. I have created many RGSS scripts for the community over the years including the standard development kit (SDK) and my famed squad based action battle system (SBABS), but this is my first game created with this engine. The game consist of an RPG adventure to find a sword your father left in a temple when he was kill there. The sword belonged to the King and he asked you to return it to him. The game included many of my own scripts and was more of a test bed then a real game.
+
+Check out the [Source Code](https://github.com/RGBKnights/rpgxp-andrill) 
+
+NOTE: This requires [RMXP](https://store.steampowered.com/app/235900/RPG_Maker_XP/) to run.
+
+## Personal
+
+### About Me
+I am classically trained as electrical technologist and computer programmer. I am an avid fan of comic books, board games and DOTA. I write fantasy and science fiction short stories when I am inspired. I also draw and create video games when I am felling creative. I often undertake research projects that start off as a crazy ideas.
+
+### Writing
+A collection of my sci-fi short stories
+
+### Artwork
+A small sample of choral paintings and pencil drawings
 
 ---
 
