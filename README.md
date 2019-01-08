@@ -61,7 +61,7 @@ Prior Work, Interesting Developments, and References:
 * https://doi.org/10.1016/j.procs.2016.08.017
 * https://developers.google.com/ar/
 
-### Virtual Environment Bio Feedback
+### VR Bio Feedback
 The crazy idea to combine these two different technologies came about after a 6 hour VR session when I thought to my self
 > I wish the game know I was getting tried and would change the difficultly so I could have kept playing...
 
@@ -91,7 +91,7 @@ These project where born out of a personal or professional need or the want to p
 
 ### High Ground Vision
 
-[HGV](http://highgroundvision.com/) started as a side project of a group of DOTA2 fans and it still operates that way. We have a number of niche tools for DOTA2. We’re also happy to share our knowledge with the community by open sourcing our stack. Development is done by volunteers contributing in their free time. Our primary focus is around [Ability Draft](http://abilitydrafter.com). We also volunteer our time to moderate AD [Reddit](https://www.reddit.com/r/Abilitydraft/) and Discord. I have a number of libraries created in C# for interact with Steam and DOTA2 for stat collection and analysis.
+[HGV](http://highgroundvision.com/) started as a side project of a group of DOTA2 fans and it still operates that way. We have a number of niche tools for DOTA2. We’re also happy to share our knowledge with the community by open sourcing our stack. Development is done by volunteers contributing in their free time. Our primary focus is around [Ability Draft](http://abilitydrafter.com). We also volunteer our time to moderate AD [Reddit](https://www.reddit.com/r/Abilitydraft/) and Discord. I have a number of libraries created in C# for interact with Steam and DOTA2 for stat collection and analysis. I also plan to explore Artifact when the APIs become available.
 * [Basilius](https://github.com/HighGroundVision/Basilius) - .Net clients for download hero, ability, and items from daily cache provided by DotaBuff.
 * [Daedalus](https://github.com/HighGroundVision/Daedalus) - .Net client for interacting with the STEAM api. This is focus around Dota 2 endpoints.
 * [Crystalys](https://github.com/HighGroundVision/Crystalys) - .Net client for interacting with the STEAM Server and Dota Game Coordinator
@@ -102,33 +102,37 @@ These project where born out of a personal or professional need or the want to p
 * [Tango](https://github.com/HighGroundVision/Tango) - The source code to the HGV web site.
 
 ### Boardgame.io
-(Contributor)
+While creating Lusus and Ur I needed a framework to handle the game state and mutations to the game state. This is where Boardgame.io comes in as it allowed me to:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
+> Write simple functions that describe how the game state changes when a particular move is made. This is automatically converted into a working game complete with online multiplayer features, all without requiring you to write a single line of networking or database handling code.
+
+While writing these games we found many bugs, some issues where submit while I fixed others myself. I also added a number of suggestions to improved the framework. I also submitted some other users PRs as they do not have a Contributor License Agreement with Google.
+
+Check out the [Project](https://boardgame.io/#/) or [Source Code](https://github.com/nicolodavis/boardgame.io)
 
 ### Generation X
-(The ability to correctly and consinently provision arifacts into a SharePoint environment)
+While working a lot with SharePoint (SP) I required a means to provision the same package into multiple different SP environments and sites. This is a complex as the process of adding new artifacts is completely different to updating existing artifacts.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
+Check out the [Source Code](https://github.com/RGBKnights/GenerationX)
 
 ### Expeditio
-(The Dungeon Master's toolkit)
 
+(The Dungeon Master's toolkit)
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
 
 ### Rail Yard
-(A next generation MVC framework for PHP)
 
+(A next generation MVC framework for PHP)
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
 
 ### Bottalk
-(Message walls for IoT before, since replaced with twitter)
 
+(Message walls for IoT before, since replaced with twitter)
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
 
 ###  XSLT Templates
-(Rendering client side by combing XML data streuctures with XSLT templats client side to produce the final web page)
 
+(Rendering client side by combing XML data streuctures with XSLT templats client side to produce the final web page)
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
 
 ## Games
