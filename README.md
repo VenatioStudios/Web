@@ -1,4 +1,4 @@
-![Logo](/logo/logo.png "Venatio Studio")
+![Logo](https://venatiostudios.github.io/Web/logo/logo.png)
 
 ---
 
