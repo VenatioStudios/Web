@@ -17,53 +17,86 @@ A small sample of corcal paintings and pencil drawings
 * XSLT Templates
 
 ### Screeps AI
+(Ai Research)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
 
 ### Geo Adventures
-RPG.global
+(RPG.global)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
 
 ### Virual Environemnt Bio Feedback
-Virtual Reality + Electroencephalogram Intergration
+(Virtual Reality + Electroencephalogram Intergration)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
 
 ###  XSLT Templates
-Rendering client side by combing XML data streuctures with XSLT templats client side to produce the final web page.
+(Rendering client side by combing XML data streuctures with XSLT templats client side to produce the final web page)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
 
 ## Projects
 
 * High Ground Vision 
-* boardgame.io (Contributor)
-* Generation X (The ability to correctly and consinently provision arifacts into a SharePoint environment)
-* Expeditio (The Dungeon Master's toolkit)
-* Rail Yard (A next generation MVC framework for PHP)
-* Bottalk (Message walls for IoT before, since replaced with twitter)
+* Boardgame.io 
+* Generation X 
+* Expeditio 
+* Rail Yard 
+* Bottalk
 
 ### High Ground Vision
+(Ecosystem, Community Modderator)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
+
+### Boardgame.io
+(Contributor)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
+
+### Generation X
+(The ability to correctly and consinently provision arifacts into a SharePoint environment)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
+
+### Expeditio
+(The Dungeon Master's toolkit)
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
 
 ### Rail Yard
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
+(A next generation MVC framework for PHP)
 
-### XSLT Templates
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
 
 ### Bottalk
+(Message walls for IoT before, since replaced with twitter)
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
 
 ## Games
 
-* boundless (procedurally generated model of the galaxy)
-* Ur (based on the royal Game of UR)
-* Lusus  (Chess with hidden infomation)
-* Trafic (Traffic flow based on dynamic water mechanics)
-* Fishbowl (Test of networking game) 
-* Camthalion of Andrill (first finsihed game include many of my own scripts created for the RMXP community)
+* boundless 
+* Ur
+* Lusus
+* Trafic 
+* Fishbowl
+* Camthalion of Andrill
+
+### Boundless
+(procedurally generated model of the galaxy)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
+
+### Ur
+(based on the royal Game of UR)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
 
 ### Lusus
+(Chess with hidden infomation)
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
 
 ### Trafic
