@@ -34,6 +34,11 @@ Relavent Work:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
 
+Relavent Work:
+* https://pdfs.semanticscholar.org/33ae/e3df888e781a4d040f8691dff02878a8fd6a.pdf
+* https://www.researchgate.net/publication/275028518_Location-based_Mobile_Augmented_Reality_Applications_Challenges_Examples_Lessons_Learned
+* https://doi.org/10.1016/j.procs.2016.08.017
+
 ### Virual Environemnt Bio Feedback
 (Virtual Reality + Electroencephalogram Intergration)
 
