@@ -21,6 +21,14 @@ A small sample of corcal paintings and pencil drawings
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
 
+Relavent Work:
+* https://blog.openai.com/competitive-self-play/
+* https://arxiv.org/abs/1810.08575
+* https://arxiv.org/abs/1810.12894
+* https://arxiv.org/pdf/1810.12282.pdf
+* https://arxiv.org/abs/1807.04742
+* https://github.com/sploreg/goap
+
 ### Geo Adventures
 (RPG.global)
 
@@ -31,10 +39,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
 
-###  XSLT Templates
-(Rendering client side by combing XML data streuctures with XSLT templats client side to produce the final web page)
+Relavent Work:
+* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3990628/
+* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4957988/
+* https://www.ncbi.nlm.nih.gov/pubmed/27547552
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
 
 ## Projects
 
@@ -44,6 +53,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra 
 * Expeditio 
 * Rail Yard 
 * Bottalk
+* XSLT Templates
 
 ### High Ground Vision
 (Ecosystem, Community Modderator)
@@ -72,6 +82,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra 
 
 ### Bottalk
 (Message walls for IoT before, since replaced with twitter)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
+
+###  XSLT Templates
+(Rendering client side by combing XML data streuctures with XSLT templats client side to produce the final web page)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus viverra massa at tempor. Nulla ullamcorper semper augue id semper. Praesent eget urna tellus. Nam eleifend lectus commodo cursus rutrum. Vivamus pulvinar molestie sem, vel posuere arcu tincidunt vitae. Vivamus quis hendrerit nunc. Nulla id lorem ac velit finibus posuere. Curabitur laoreet massa vitae maximus finibus. Maecenas ac egestas tortor, et pulvinar erat. Pellentesque venenatis eros lectus, ac facilisis sapien maximus eu.
 
