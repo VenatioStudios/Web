@@ -201,6 +201,13 @@ Camthalion of Andrill was created in early 2005. It was created with RMXP an eng
 
 Check out the [Source Code](https://github.com/RGBKnights/rpgxp-andrill) but this requires [RPG Maker XP](https://store.steampowered.com/app/235900/RPG_Maker_XP/) to run.
 
+### Game Jams
+I have competed in and volunteered for a number of Game Jams / Hackathons
+* [Farm Collection](https://www.youtube.com/watch?v=0lwlrpuNq54)
+* [Skyways](https://www.youtube.com/watch?v=eu0rh35kofg)
+* [FPS Sample](https://www.youtube.com/watch?v=P_BW7_3pFHw)
+* [Sailor Joe](https://www.youtube.com/watch?v=EbZghTk3-50)
+
 ## [Personal](#personal)
 
 ### About Me
