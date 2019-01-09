@@ -161,7 +161,7 @@ NOTE: This project is Archived but you can still find the [Source Code](https://
 
 ### Crypto-Cartography
 Crypto-Cartography was born out of a Hackaton that was about better passwords.
-My Submission is a service that provides authentication for web systems, like OpenID. What sets Crypto-Cartography apart from other systems is that your password is not entered as text but is entered by selected points on a map. With the longitude and latitude serving as the access code. By zooming down through the map to the high level of resolution, users can graphically produce a very large complex password that can be simple for the user to remember.
+My Submission is a service that provides authentication for web systems, like OpenID. What sets Crypto-Cartography apart from other systems is that your password is not entered as text but is entered by selected points on a map. With the longitude and latitude serving as the access code. By zooming down through the map to the high level of resolution, users can graphically produce a very large complex password that can be simple for the user to remember (like their favorite landmark).
 
 NOTE: This project is Archived but you can still find the [Source Code](https://github.com/RGBKnights/crypto-cartography).
 
