@@ -17,6 +17,7 @@ My research projects are all done on my own time, general with the assistance fr
 
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `Screeps AI`
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `VR Bio Feedback`
+* ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `SoundCloud Prediction`
 * ![#FF9205](https://placehold.it/15/FF9205/000000?text=+) `Geo Adventures`
 * ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `ANTS`
 * ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `SPIDERS`
@@ -40,6 +41,10 @@ Prior Work, Interesting Developments, and References:
 * https://arxiv.org/pdf/1810.12282
 * https://arxiv.org/abs/1807.04742
 * https://github.com/sploreg/goap
+
+### SoundCloud Prediction
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat ligula a turpis porttitor eleifend et tincidunt enim. Mauris eget lacus odio. Nullam laoreet at enim ac vulputate. Sed dictum elit ac placerat euismod. Pellentesque sed egestas risus, a aliquet dolor. Fusce suscipit ultrices pellentesque. Curabitur posuere mauris eget nisl aliquam consequat. In elementum, lacus eu accumsan vestibulum, turpis nibh eleifend risus, eget vulputate odio purus vel lectus. Cras quis egestas turpis, sit amet sollicitudin magna. Quisque eu felis at nisi condimentum lacinia. Curabitur bibendum, eros ut semper semper, odio orci finibus enim, quis tempor dui libero ac nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 
 ### Geo Adventures
 The crazy idea behind Geo Adventures came when I was first introduced to Pokemon GO before its release seeing and marveling at the AR functionality but after release seeing that most people turn it off as it was not more then a gimmick that drained their batteries faster. I was dreaming about kind of game could force to the player to use AR and what types of issues is AR having in a outdoor setting that are preventing good AR games.
