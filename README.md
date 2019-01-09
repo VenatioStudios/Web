@@ -1,5 +1,12 @@
 ![Logo](https://venatiostudios.github.io/Web/logo/logo.png)
 
+### About Me
+I am a classically trained as electrical technologist and computer programmer. I am an avid fan of comic books, board games and DOTA. I write fantasy and science fiction short stories when I am inspired. I also draw and create video games when I am felling creative. I often undertake research projects that start off as a crazy ideas.
+
+### Key
+* ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `ACTIVE`
+* ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `ARCHIVED`
+
 ---
 
 [Research](https://venatiostudios.github.io/Web/#research)
@@ -18,7 +25,7 @@ My research projects are all done on my own time, general with the assistance fr
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `Screeps AI`
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `VR Bio Feedback`
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `SoundCloud Prediction`
-* ![#FF9205](https://placehold.it/15/FF9205/000000?text=+) `Geo Adventures`
+* ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `Geo Adventures`
 * ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `ANTS`
 * ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `SPIDERS`
 
@@ -46,16 +53,16 @@ Prior Work, Interesting Developments, and References:
 
 This research started as an exploration of predictions and recommendation engines and why they suck. Although this research started around text based recommendations based heavily on pass work. It quickly evolved as I needed to create my own data sets. Although I generate a lot of data the one that I felt would benefit most from a better recommendation engine was in music. It was at this time I switched from YouTube to SoundCloud and desired to combine my efforts. Through the SoundCloud API I was able to access a bunch of information about each track, include the tile, artist, etc. but always some things that I did not think would be interesting but turned out to very useful these include things like the track art, waveform, re-posting chain. 
 
-This system is not so much an AI (although dose some a lot of neutral networks to transform data) as it more a set of logic checks against my training set (plus a black list but I will get that later). The system will automatically Repost tracks from my stream (my collection of followed artist) based on making it through these series of checks. I have used existing neutral networks and retrained them for my needs. I evaluate the following data points in the following ways:
-*  Title - Was this reposted recently, a simple look back will tell us that. But no point posting the same track multiple times. (this happens more then you would think as some of people I follow are a part of publishing collective.) 
+This system is not so much an AI (although dose have some neutral networks to transform data) as it more a set of logic checks against my training set (plus a black list but I will get that later). The system will automatically Repost tracks from my stream (my collection of followed artist) based on making it through these series of checks. I have used existing neutral networks and retrained them for my needs. I evaluate the following data points in the following ways:
+*  Title - Was this reposted recently, a simple look back will tell us that. But no point posting the same track multiple times. (this happens more then you would think as some of people I follow are a part of publishing collectives.) 
 * Description & Tags - are often used as the 1st check based on that Black List I stated earlier, it is simplest to keep a dictionary of items you never want to repost (for me this includes bad words, wrong language, etc)
 * Artist & Publishers - Are important to the system as they provide a weighting for the system. As I can provide feedback to the system in the from likes, thus it used this information to weight artists and publishers I have liked after the initial reposting to bring more weight to their songs in the future.
 * Reposting Chain - Also plays into the weighting as well as one of my liked publisher could still be part of the chain just not the top.
 * Track Art - Is a neutral network I purposed to create a similarity score to my most like artists (the heart of that AI is really color analysis)
 * Track Waveform - Is also processed by a system that creates an intensity score (this is not an AI just a simple function). And an AI that compare this waveform to others I have liked in the past (to this end I have a playlist that is used to train from)
-* Audio Sample - The last AI samples the first few seconds of the track (this is not a fix number as it has the means to wait until the audio kicks in as the initial few seconds can be lead-in/lead-up). After the AI extracts the clip it run it a serries of audio processes from 'Fourier Series' to 'Speech to Text' (this is also filtered against the black list for language I find offensive).
+* Audio Sample - this AI samples the first few seconds of the track (this is not a fix number as it has the means to wait until the audio kicks in as the initial few seconds can be lead-in/lead-up). After the AI extracts the clip it run it a serries of audio processes from 'Fourier Series' to 'Speech to Text' (this is also filtered against the black list for language I find offensive).
 
-Most of these process can run in parallel to each other and is none blocking towards other tracks as they come into the stream. This is possible because the tracks are all externals ID and I maintain my own Graph Database of the transient details (most of which are purged at the end of the pipeline). After all the processed are complete for the give track the final results are used as inputs into the final AI that has only two outputs. Yes or Not to repost and which playlist to add too, if any. This playlist is important as if over result is No, but the component values are high (there could be an issue with my AI or parts of the pipeline) and as suck will end up in a review playlist for me to look at a later date.
+Most of these process can run in parallel to each other and is none blocking towards other tracks as they come into the stream. This is possible because the tracks are all externals ID and I maintain my own Graph Database of the transient details (most of which are purged at the end of the pipeline). After all the processed are complete for the give track the final results are used as inputs into the final AI that has only two outputs. Yes or Not to repost and which playlist to add too, if any. This playlist is important as if over result is No, but the component values are high (there could be an issue with my AI or parts of the pipeline) and as such will end up in a review playlist for me to look at a later date.
 
 You can check out the results at [SoundCloud](https://soundcloud.com/webstar-tunes/reposts)
 
@@ -228,9 +235,6 @@ I have competed in and volunteered for a number of Game Jams / Hackathons. These
 * [Sailor Joe](https://www.youtube.com/watch?v=EbZghTk3-50)
 
 ## [Personal](#personal)
-
-### About Me
-I am classically trained as electrical technologist and computer programmer. I am an avid fan of comic books, board games and DOTA. I write fantasy and science fiction short stories when I am inspired. I also draw and create video games when I am felling creative. I often undertake research projects that start off as a crazy ideas.
 
 ### Writing
 A collection of my sci-fi short stories
