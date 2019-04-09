@@ -20,7 +20,7 @@ I am a classically trained as electrical technologist and computer programmer. I
 ---
 
 ## [Research](#research)
-My research projects are all done on my own time, general with the assistance from academia and are often not more then just crazy ideas I wish to explore further.
+My research projects are all done on my own time, generally with the assistance from academia and are often not more then just crazy ideas I wish to explore further.
 
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `Screeps AI`
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `VR Bio Feedback`
@@ -41,6 +41,9 @@ Check out the [Source Code](https://github.com/RGBKnights/screeps) for different
 
 NOTE: Some maybe incomplete or missing files required to compile. As I was using a local NPM package at one point.
 
+Future Work:
+* Exploring moving from the private server Repo (which is always months or years behind) to using the official Repo.
+
 Prior Work, Interesting Developments, and References:
 * https://blog.openai.com/competitive-self-play/
 * https://arxiv.org/abs/1810.08575
@@ -49,51 +52,6 @@ Prior Work, Interesting Developments, and References:
 * https://arxiv.org/abs/1807.04742
 * https://github.com/sploreg/goap
 
-### SoundCloud Prediction
-
-This research started as an exploration of predictions and recommendation engines and why they suck. Although this research started around text based recommendations based heavily on pass work. It quickly evolved as I needed to create my own data sets. Although I generate a lot of data the one that I felt would benefit most from a better recommendation engine was in music. It was at this time I switched from YouTube to SoundCloud and desired to combine my efforts. Through the SoundCloud API I was able to access a bunch of information about each track, include the tile, artist, etc. but always some things that I did not think would be interesting but turned out to very useful these include things like the track art, waveform, re-posting chain. 
-
-This system is not so much an AI (Although dose have some neutral networks to transform data) as it more a set of logic checks against my training set (Plus a black list but I will get that later). The system will automatically Repost tracks from my stream (My collection of followed artist) based on making it through these series of checks. I have used existing neutral networks and retrained them for my needs. I evaluate the following data points in the following ways:
-*  Title - Was this Reposted recently, a simple look back will tell us that. But no point posting the same track multiple times. (This happens more then you would think as some of people I follow are a part of publishing collectives.) 
-* Description & Tags - Are often used as the 1st check based on that Black List I stated earlier, it is simplest to keep a dictionary of items you never want to repost (For me this includes bad words, wrong language, etc)
-* Artist & Publishers - Are important to the system as they provide a weighting for the system. As I can provide feedback to the system in the from likes, thus it used this information to weight artists and publishers I have liked after the initial reposting to bring more weight to their songs in the future.
-* Reposting Chain - Also plays into the weighting as well as one of my liked publisher could still be part of the chain just not the top.
-* Track Art - Is a neutral network I purposed to create a similarity score to my most like artists (The heart of that AI is really color analysis)
-* Track Waveform - Is also processed by a system that creates an intensity score (This is not an AI just a simple function). And an AI that compare this waveform to others I have liked in the past (To this end I have a playlist that is used to train from)
-* Audio Sample - This AI samples the first few seconds of the track (This is not a fix number as it has the means to wait until the audio kicks in as the initial few seconds can be lead-in/lead-up). After the AI extracts the clip it run it a serries of audio processes from 'Fourier Series' to 'Speech to Text' (This is also filtered against the black list for language I find offensive).
-
-Most of these process can run in parallel to each other and is none blocking towards other tracks as they come into the stream. This is possible because the tracks are all externals ID and I maintain my own Graph Database of the transient details (Most of which are purged at the end of the pipeline). After all the processed are complete for the give track the final results are used as inputs into the final AI that has only two outputs. Yes or Not to repost and which playlist to add too, if any. This playlist is important as if over result is No, but the component values are high (There could be an issue with my AI or parts of the pipeline) and as such will end up in a review playlist for me to look at a later date.
-
-You can check out the results at [SoundCloud](https://soundcloud.com/webstar-tunes/reposts)
-
-NOTE: I do not run the AI all the time as it dose generate a lot of data and the SoundCloud API is throttling me so the posting results show up in spurts (with often days or week before another blast).
-
-Prior Work, Interesting Developments, and References:
-* https://www.ijedr.org/papers/IJEDR1404092.pdf
-* https://arxiv.org/ftp/arxiv/papers/1703/1703.09109.pdf
-* https://beta.vu.nl/nl/Images/werkstuk-fernandez_tcm235-874624.pdf
-
-
-### Geo Adventures
-The crazy idea behind Geo Adventures came when I was first introduced to Pokemon GO before its release seeing and marveling at the AR functionality but after release seeing that most people turn it off as it was not more then a gimmick that drained their batteries faster. I was dreaming about kind of game could force to the player to use AR and what types of issues is AR having in a outdoor setting that are preventing good AR games.
-
-The basic of game itself was an RPG fantasy settings overladed on real life. This forced the player to go outside to for collections to gather resources (Battling against those whom protect it) needed to build defence for their own base, while also collecting keys to other bases (Built by other players) to battle (Now or later with key) to claim their loot.
-
-After examining some of the previous work in the field it became clear what the major issues would be. Accurate geo-maping of the area was required to even get the basics up and running using the players location. This meant knowing the players coordinates (Include their height above sea level, not just lat and long) to with in a 1 meter or less. Not only the positioning of the player was a challenge but understanding the dimensions of the virtual environment in relation with the physical one.
-
-Although some really great work as been done in this field with the current technology in the mobile devices means there are lots of issues, these include:
-* Moving virtual objects  dynamically in the scene (I.e. NPCs that walk around the environment)
-* Overlaying / Underlying virtual elements into the scene with moving real objects. (I.e. a car drives in front of the virtual object)
-* The time delay to update virtual elements to match the real world (I.e. what happens when the physical and virtual world disagree)
-* AR mobile devices battery drain (I.e. constantly looking through the AR lens will drain the battery very fast)
-
-As of late 2016 all work is on hold and the game is archived until better solutions to these and other technical challenges are worked out. Although upon another review of the issues in late 2018 things are making rapid progress with [ARCore](https://developers.google.com/ar/).
-
-Prior Work, Interesting Developments, and References:
-* https://pdfs.semanticscholar.org/33ae/e3df888e781a4d040f8691dff02878a8fd6a.pdf
-* http://dbis.eprints.uni-ulm.de/1028/
-* https://doi.org/10.1016/j.procs.2016.08.017
-* https://developers.google.com/ar/
 
 ### VR Bio Feedback
 The crazy idea to combine these two different technologies came about after a 6 hour VR session when I thought to my self
@@ -106,6 +64,57 @@ Prior Work, Interesting Developments, and References:
 * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4957988/
 * https://www.ncbi.nlm.nih.gov/pubmed/27547552
 
+### SoundCloud Prediction
+
+This research started as an exploration of predictions and recommendation engines and why they suck. Although this research started around text based recommendations based heavily on pass work. It quickly evolved as I needed to create my own data sets. Although I generate a lot of data, the one that I felt would benefit most from a better recommendation engine was in music. It was at this time I switched from YouTube to SoundCloud to complete my efforts. Through the SoundCloud API I was able to access a bunch of information about each track, include the tile, artist, etc. but also some things that I did not think would be interesting but turned out to very useful these include things like the track art, waveform, re-posting chain. 
+
+This system is not so much an AI (Although dose have some neutral networks to transform data) as it more a set of logic checks against my training set (Plus a black list but I will get that later). The system will automatically Repost tracks from my stream (My collection of followed artist) based on making it through these series of checks. I have used existing neutral networks and retrained them for my needs. I evaluate the following data points in the following ways:
+*  Title - Was this Reposted recently, a simple look back will tell us that. But no point posting the same track multiple times. (This happens more then you would think as some of people I follow are a part of publishing collectives.) 
+* Description & Tags - Are often used as the 1st check based on that Black List I stated earlier, it is simplest to keep a dictionary of items you never want to repost (For me this includes profanity, language, genre, etc)
+* Artist & Publishers - Are important to the system as they provide a weighting for the system. As I can provide feedback to the system in the from likes, thus it used this information to weight artists and publishers I have liked after the initial reposting to bring more weight to their songs in the future.
+* Reposting Chain - Also plays into the weighting as well as one of my liked publisher could still be part of the chain just not the top.
+* Track Art - Is a neutral network I repurposed to create a similarity score to my most like artists
+* Track Waveform - Is also processed by a system that creates an intensity score (This is not an AI just a simple function). And an AI that compare this waveform to others I have liked in the past (To this end I have a playlist that is used to train from)
+* Audio Sample - This AI samples the first few seconds of the track (This is not a fix number as it has the means to wait until the audio kicks in as the initial few seconds can be lead-in/lead-up). After the AI extracts the clip it run it a serries of audio processes from 'Fourier Series' to 'Speech to Text' (This is also filtered against the black list).
+
+Most of these process can run in parallel to each other and is none blocking towards other tracks as they come into the stream. This is possible because the tracks are all externals ID and I maintain my own Graph Database of the transient details (Most of which are purged at the end of the pipeline). After all the processed are complete for the give track the final results are used as inputs into the final AI that has only two outputs. Yes or Not to repost and which playlist to add too, if any. This playlist is important as if result is No, but the component values are high (There could be an issue with my AI or parts of the pipeline) and as such will end up in a review playlist for me to look at a later date.
+
+You can check out the results at [SoundCloud](https://soundcloud.com/webstar-tunes/reposts)
+
+NOTE: I do not run the AI all the time as it dose generate a lot of data and the SoundCloud API is throttling me so the posting results show up in spurts (with often days or week before another blast).
+
+Future Work:
+* Exploring other audio transformation series and how they can be compared and weighted.
+
+Prior Work, Interesting Developments, and References:
+* https://www.ijedr.org/papers/IJEDR1404092.pdf
+* https://arxiv.org/ftp/arxiv/papers/1703/1703.09109.pdf
+* https://beta.vu.nl/nl/Images/werkstuk-fernandez_tcm235-874624.pdf
+
+
+### Geo Adventures
+The crazy idea behind Geo Adventures came when I was first introduced to Pokemon GO before its release seeing and marveling at the AR functionality but after release seeing that most people turn it off as it was not more then a gimmick that drained their batteries faster. I was dreaming about kind of game could force to the player to use AR and what types of issues is AR having in a outdoor setting that are preventing good AR games.
+
+The basic of game itself was an RPG fantasy settings overladed on real life. This forced the player to go outside to gather resources (Battling against those whom protect it) needed to build defence for their own base, while also collecting keys to other bases (Built by other players) to battle (Now or later with key) to claim their loot.
+
+After examining some of the previous work in the field it became clear what the major issues would be. Accurate geo-maping of the area was required to even get the basics up and running using the players location. This meant knowing the players coordinates (Include their height above sea level, not just lat and long) to with in a 1 meter or less. Not only the positioning of the player was a challenge but understanding the dimensions of the virtual environment in relation with the physical one.
+
+Although some really great work as been done in this field with the current technology in the mobile devices means there are lots of issues, these include:
+* Moving virtual objects  dynamically in the scene (I.e. NPCs that walk around the environment)
+* Overlaying / Underlying virtual elements into the scene with moving real objects. (I.e. a car drives in front of the virtual object)
+* The time delay to update virtual elements to match the real world (I.e. what happens when the physical and virtual world disagree)
+* AR mobile devices battery drain (I.e. constantly looking through the AR lens will drain the battery very fast)
+
+Future Work:
+* Explore [ARCore](https://developers.google.com/ar/) and how it can solve some of the issues stated above.
+
+Prior Work, Interesting Developments, and References:
+* https://pdfs.semanticscholar.org/33ae/e3df888e781a4d040f8691dff02878a8fd6a.pdf
+* http://dbis.eprints.uni-ulm.de/1028/
+* https://doi.org/10.1016/j.procs.2016.08.017
+* https://developers.google.com/ar/
+
+
 ### ANTS
 My ANTS (Which is short for Autonomous Neural Training and Sharing.) research started shortly after my SPIDERS research. With out any knowledge of AI and various sub fields years ago I stumble into the beginnings of neutral network design without understanding what a neutral network was. After working on my SPIDERS research I wanted to expand upon the ability for the system to learn and this where ANTS was born. Its greatest achievement was the self assembly of a system that could analysis .Net assemblies for there type information and create an abstract syntax tree (AST) of the resulting flow of types from different functions and was able to predict and then test chains of these function calls. I even moved all code into Azure for some large scale tests of running through the default .Net library's, but in the end the cost of the project was too much to continue at scale so research was archive on 2013. 
 
@@ -113,7 +122,7 @@ My ANTS (Which is short for Autonomous Neural Training and Sharing.) research st
 In the early years of the internet there was no google. (I know hard to believe...) In these days where you got your site list from was really a dog's breakfast of different sources. It was not till the introduction of web crawlers that true search engines where created. When all this madness of who have the best web crawl was going on I was interested by the idea of crawling code the same way these crawlers where out there exploring the web. I create my own version of a crawler SPIDERS (Which is short for Self Propagation for Identification of Data Equality and Relationships in Subsystems) In the end it helped me explore the C and Assembly languages. I also created a version that could explore the web the same way web crawlers do, and still use it to this day to do deep dives into the search engines.
 
 ## [Projects](#projects)
-These project where born out of a personal or professional need or the want to productize a past research item. With most of my free time going to support the High Ground Vision project.
+These projects where born out of a personal or professional need or the want to productize a past research item. With most of my free time going to support the High Ground Vision project.
 
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `High Ground Vision`
 * ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `Boardgame.io`
@@ -125,7 +134,7 @@ These project where born out of a personal or professional need or the want to p
 
 ### High Ground Vision
 
-[HGV](http://highgroundvision.com/) started as a side project of a group of DOTA2 fans and it still operates that way. We have a number of niche tools for DOTA2. We’re also happy to share our knowledge with the community by open sourcing our stack. Development is done by volunteers contributing in their free time. Our primary focus is around [Ability Draft](http://abilitydrafter.com). We also volunteer our time to moderate AD [Reddit](https://www.reddit.com/r/Abilitydraft/) and Discord. I have a number of libraries created in C# for interact with Steam and DOTA2 for stat collection and analysis. I also plan to explore Artifact when the APIs become available.
+[HGV](http://highgroundvision.com/) started as a side project of a group of DOTA2 fans and it still operates that way. We have a number of niche tools for DOTA2. We’re also happy to share our knowledge with the community by open sourcing our stack. Development is done by volunteers contributing in their free time. Our primary focus is around [Ability Draft](http://abilitydrafter.com). We also volunteer our time to moderate AD [Reddit](https://www.reddit.com/r/Abilitydraft/) and Discord. I have a number of libraries created in C# for interact with Steam and DOTA2 for stat collection and analysis. We also plan to explore Artifact when the APIs become available.
 * [Basilius](https://github.com/HighGroundVision/Basilius) - .Net clients for download hero, ability, and items from daily cache provided by DotaBuff.
 * [Daedalus](https://github.com/HighGroundVision/Daedalus) - .Net client for interacting with the STEAM api. This is focus around Dota 2 endpoints.
 * [Crystalys](https://github.com/HighGroundVision/Crystalys) - .Net client for interacting with the STEAM Server and Dota Game Coordinator
@@ -146,7 +155,7 @@ Check out the [Project](https://boardgame.io/#/) or [Source Code](https://github
 
 ### Expeditio
 
-As part of my love for DnD I am working to create a Dungeon Master’s toolkit that will contain the The Systems Reference Document (SRD) under the Open-Gaming License (OGL). It will also have an API for Genesis (World create and mutation) and an API for Hoard (Items, weapons, tools, abilities, basically anything from the SRD)
+As part of my love for DnD I am working to create a Dungeon Master’s toolkit that will contain the The Systems Reference Document (SRD) under the Open-Gaming License (OGL). It will also have an API for Genesis (World creation and mutation) and an API for Hoard (Items, weapons, tools, abilities, basically anything from the SRD)
 
 Check out the [Guides](https://expeditio.readme.io/docs) & the [API](https://expeditio.readme.io/reference) & the [Source Code](https://github.com/RGBKnights/expeditio)
 
@@ -154,8 +163,6 @@ Check out the [Guides](https://expeditio.readme.io/docs) & the [API](https://exp
 While working a lot with SharePoint (SP) I required a means to provision the same package into multiple different SP environments and sites. This is a complex as the process of adding new artifacts is completely different to updating existing artifacts.
 
 Check out the [Source Code](https://github.com/RGBKnights/GenerationX)
-
-NOTE: This project is Archived.
 
 ### Rail Yard
 Rail yard is next generation PHP framework. It brings together common patterns like MVC and ActiveRecord. It follows conservation over configuration. It is build on PHP 5 and follows PHP best practices.
@@ -177,12 +184,12 @@ Bottalk is a service for bots, devices, services and people to communicate and c
 
 Bottalk was originally created before twitter but since its lunch as adapted some of its ideals. The target was home devices that could follow each other and other services for information and commands.
 
-A prototype air conditioner was created to that monitored a feed for weather updates and adjusted its temperature range a accordingly. It was also able to monitor a feed from Ontario hydro that had information of current state of the electrical grid and would power down if in a high risk area to safe power. It could also follow my cell phone's feed for commands and confirmation of commands.
+A prototype air conditioner was created to that monitored a feed for weather updates and adjusted its temperature range a accordingly. It was also able to monitor a feed from Ontario hydro that had information of current state of the electrical grid and would power down if in a high risk area to safe power. It could also follow my cell phone's feed for commands and configuration.
 
-NOTE: This project was replaced with Twitter and is Archived.
+NOTE: This project was replaced with [IFTTT](https://ifttt.com/) and is Archived.
 
 ###  XSLT Templates
-This was all years before SPA Javasript applications. XSLT seemed to the the best choice for a javascript template engine because it is standardized. As well a large collection of the internet data stores are XML, but JSON support is also needed for interaction with future applications. It also meant that the same templates that are used in the web are transferable to other environments that support XSLT.
+This was all years before SPA Javasript applications. XSLT seemed to the the best choice for a javascript template engine because it is standardized. As well a large collection of the internet data stores are XML (little did i know JSON would take over the world). It also meant that the same templates that are used in the web are transferable to other environments that support XSLT.
 
 XSLT Templates is a client side jQuery library that takes XML and/or JSON data and renders it against of XSLT template to create text, HTML, XML, or JSON. As well the library can run script(s) after the templating process to add client side logic to the processed data.
 
@@ -218,7 +225,7 @@ Traffic was created in late 2010. With the release of XNA 4 and now being able t
 NOTE: As there is no longer a Zune store, it has since been lost to the sands of time.
 
 ### Fishbowl
-Fishbowl was created in one week over my Christmas break in 2008. With the release of XNA networking and the 360 deployment system we were very interested in getting a simpler game together to publish. Fishbowl was born! Based on a Nut Harvest, a very addicting XNA game that was also very simple. The goal of this project was to figure out and test XNA networking. It was very interesting to deal with network prediction to get the game to work correctly. The game consists of a player controlling a fish to eat the most shrimp before the other fish. Look out for power ups and bombs! Fishbowl has accumulated over 20,000 trail downloads since January 2009. As well as covering the cost of the original assets.
+Fishbowl was created in one week over my Christmas break in 2008. With the release of XNA networking and the 360 deployment system we were very interested in getting a simpler game together to publish. Fishbowl was born! Based on a Nut Harvest, a very addicting XNA game that was also very simple. The goal of this project was to figure out and test XNA networking. It was very interesting to deal with network prediction to get the game to work correctly. The game consists of a player controlling a fish to eat the most food before the other fish. Look out for power ups and bombs! Fishbowl has accumulated over 20,000 trail downloads since January 2009. As well as hundreds of purchases enough to covering the cost of the original assets.
 
 NOTE: As there is no 360 indy arcade anymore, it has since been lost to the sands of time.
 
@@ -228,11 +235,11 @@ Camthalion of Andrill was created in early 2005. It was created with RMXP an eng
 Check out the [Source Code](https://github.com/RGBKnights/rpgxp-andrill), but this requires [RPG Maker XP](https://store.steampowered.com/app/235900/RPG_Maker_XP/) to run.
 
 ### Game Jams
-I have competed in and volunteered for a number of Game Jams/Hackathons. These are all throw away, but have I have learned alot about Unity, networking, animations, physics, shaders, etc...
+I have competed in and volunteered for a number of Game Jams/Hackathons. These are all throw away, but have I have learned a lot about Unity, networking, animations, physics, shaders, etc...
 * [Farm Collection](https://www.youtube.com/watch?v=0lwlrpuNq54)
 * [Skyways](https://www.youtube.com/watch?v=eu0rh35kofg)
 * [FPS Sample](https://www.youtube.com/watch?v=P_BW7_3pFHw)
-* [Sailor Joe](https://www.youtube.com/watch?v=EbZghTk3-50)
+* [Pirates Cove](https://www.youtube.com/watch?v=EbZghTk3-50)
 
 ## [Personal](#personal)
 
