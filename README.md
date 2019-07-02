@@ -107,7 +107,7 @@ I am exploring options around combining the outdoor play style with indoor eleme
 This is needed for themes that include gathering/crafting or attack/defence.
 
 #### Wifi
-I am investigating using the current wifi access point Name / ID (if there is one) to signal to the game you are inside a fort, protected building, etc. This would allow me to create themes that include attacking/defending a static location or raids on static location.
+I am investigating using the current wifi access point Name / ID (if there is one) to signal to the engine you are inside a fort, protected building, etc. This would allow me to create themes that include attacking/defending a static location or raids on static location.
 
 Prior Work, Interesting Developments, and References:
 * https://pdfs.semanticscholar.org/33ae/e3df888e781a4d040f8691dff02878a8fd6a.pdf
