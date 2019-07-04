@@ -17,6 +17,10 @@ I am classically trained in Electrical Engineering Technology (Artificer Class) 
 
 ---
 
+Key: ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `ACTIVE` | ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `ARCHIVED`
+
+---
+
 ## [Career Highlights](#career)
 
 #### Densyfy Inc.
@@ -314,12 +318,6 @@ A small sample of choral paintings and pencil drawings
 * [The Lake](/art/The_Lake.jpg)
 * [The Sun Set](/art/The_Sun_Set.jpg)
 * [Yhen](/art/Yhen.jpg)
-
----
-
-### Key
-* ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `ACTIVE`
-* ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `ARCHIVED`
 
 ---
 
