@@ -1,14 +1,12 @@
 ![Logo](https://venatiostudios.github.io/Web/logo/logo.png)
 
 ### About Me
-I am a classically trained as electrical technologist and computer programmer. I am an avid fan of comic books, board games and DOTA. I write fantasy and science fiction short stories when I am inspired. I also draw and create video games when I am felling creative. I often undertake research projects that start off as a crazy ideas.
-
-### Key
-* ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `ACTIVE`
-* ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `ARCHIVED`
+I am classically trained in Electrical Engineering Technology (Artificer Class) & Computer Programmer Analyst (Ninja Class). I am an avid fan of comic books, board games and DOTA. I write fantasy and science fiction short stories when I am inspired. I also draw and create video games when I am felling creative. I often undertake research projects that start off as a crazy ideas.
 
 ---
 
+[Career](https://venatiostudios.github.io/Web/#career )
+|
 [Research](https://venatiostudios.github.io/Web/#research)
 |
 [Projects](https://venatiostudios.github.io/Web/#projects)
@@ -16,6 +14,50 @@ I am a classically trained as electrical technologist and computer programmer. I
 [Games](https://venatiostudios.github.io/Web/#games)
 |
 [Personal](https://venatiostudios.github.io/Web/#personal)
+
+---
+
+## [Career Highlights](#career)
+
+#### Densyfy Inc.
+Software Developer  
+September 2017 - July 2019 (1 year 11 months)  
+Implemented tooling verify the results of a machine learning pipeline; created an application allow a human to process the same results as the machine learning for testing and validation; created a desktop and web demo players;
+
+#### Scytl Innovating Democracy
+Software Engineer  
+August 2016 - September 2017 (1 year 2 months)  
+Lead the Wavelength team within Scytl; oversaw on premise implementations; Coordinated our local team with a remote head office;  
+
+#### Akira Systems
+Software Developer  
+April 2011 - August 2016 (5 years 5 months)  
+Created and maintained web applications in ASP.net, C#, JS, and SharePoint; managed a team of developers
+
+#### Public Sector Digest
+Software Developer  
+January 2010 - November 2010 (11 months)  
+Created and maintained web applications in PHP and Flex;  
+
+#### TGT Solutions Inc
+Associate Developer  
+May 2009 - August 2009 (4 months)  
+Maintained C# code base for existing products; created and changed ASP.net web pages to meet new requirements; designed and implemented a prototype web site for new product  
+
+#### Scotiabank
+Quality Assurance Tester  
+January 2008 - April 2008 (4 months)  
+Manually tested internally-developed web applications; ran training lunches for employees to learn SQL; created a resource management application in C# for forecasting the availability of people and equipment; upgraded internal Access applications  
+
+#### Engine Control Systems Limited
+Engineering Prototyping Assistant  
+January 2005 - August 2006 (1 year 8 months)  
+Tested and debugged Printed Circuit Boards; constructed prototypes for new products  
+
+#### Walker's Electric
+Panel Assembler  
+May 2004 - August 2004 (4 months)  
+Read electrical drawings; laid out robotic control panels; built robotic control panels; wired robotic control panels; created CAD drawings for manufacturing robots control panels; created PLC programs for manufacturing robots;  
 
 ---
 
@@ -122,6 +164,8 @@ My ANTS (Which is short for Autonomous Neural Training and Sharing.) research st
 ### SPIDERS
 In the early years of the internet there was no google. (I know hard to believe...) In these days where you got your site list from was really a dog's breakfast of different sources. It was not till the introduction of web crawlers that true search engines where created. When all this madness of who have the best web crawl was going on I was interested by the idea of crawling code the same way these crawlers where out there exploring the web. I create my own version of a crawler SPIDERS (Which is short for Self Propagation for Identification of Data Equality and Relationships in Subsystems) In the end it helped me explore the C and Assembly languages. I also created a version that could explore the web the same way web crawlers do, and still use it to this day to do deep dives into the search engines.
 
+---
+
 ## [Projects](#projects)
 These projects where born out of a personal or professional need or the want to productize a past research item. With most of my free time going to support the High Ground Vision project.
 
@@ -200,6 +244,8 @@ XSLT Templates is a client side jQuery library that takes XML and/or JSON data a
 
 NOTE: This project is Archived in favour of Modern SPA.
 
+---
+
 ## [Games](#games)
 I have been creating games for a long time. Since a young age I was creating my own board games for friends and family to play. I really started into Video Game development after getting involved in the [RPG Maker XP](http://www.rpgmakerweb.com/products/programs/rpg-maker-xp) community. I was involved in many popular scripts and was leading the team of people creating the first version of the SDK that was so powerful that Enterbrain included it in the next version of product, RPG Maker VX. I moved on from this basic visual editor/engine to [XNA](https://en.wikipedia.org/wiki/Microsoft_XNA) when it was release. This allowed me to create many different games and self published one on the Xbox 360 with Xbox Live networking. As XNA evolved it allow us to publish to windows phone, so I created and published windows phone game. After the death of XNA I moved into [Unity](https://unity3d.com/) development. Also, I did some board games in the browser using [Boardgame.io](https://github.com/nicolodavis/boardgame.io)
 
@@ -245,6 +291,8 @@ I have competed in and volunteered for a number of Game Jams/Hackathons. These a
 * [FPS Sample](https://www.youtube.com/watch?v=P_BW7_3pFHw)
 * [Pirates Cove](https://www.youtube.com/watch?v=EbZghTk3-50)
 
+---
+
 ## [Personal](#personal)
 
 ### Writing
@@ -266,6 +314,12 @@ A small sample of choral paintings and pencil drawings
 * [The Lake](/art/The_Lake.jpg)
 * [The Sun Set](/art/The_Sun_Set.jpg)
 * [Yhen](/art/Yhen.jpg)
+
+---
+
+### Key
+* ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `ACTIVE`
+* ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `ARCHIVED`
 
 ---
 
