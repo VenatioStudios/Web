@@ -17,7 +17,7 @@ I am classically trained in Electrical Engineering Technology (Artificer Class) 
 
 ---
 
-Key: ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `ACTIVE` | ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `ARCHIVED`
+![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `ACTIVE` | ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `ARCHIVED`
 
 ---
 
